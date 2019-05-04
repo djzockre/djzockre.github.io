@@ -3496,6 +3496,8 @@ h6 {
 
 .feature_item img {
   margin-bottom: 35px;
+  width:60px;
+  height:60px;
 }
 
 .feature_item h4 {
@@ -3543,6 +3545,10 @@ h6 {
   margin-bottom: 40px;
 }
 
+.interior_inner div .img-fluid{
+  margin: 5px auto;
+  margin-left: 25%
+}
 /* End Feature Area css
 ============================================================================================ */
 /* Download App Area css
@@ -4052,7 +4058,8 @@ h6 {
 }
 
 .footer-bottom .footer-text a {
-  color: #6247ea;
+  font-size: 18px;
+  color: #7C3A57;
   opacity: 1;
 }
 

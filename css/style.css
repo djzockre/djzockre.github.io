@@ -402,9 +402,10 @@ button:focus {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  max-width: 450px;
+  /*max-width: 450px;*/
+  max-width: 550px;
   margin-bottom: 40px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .home_banner_area .banner_inner .banner_content .banner_map_img {

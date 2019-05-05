@@ -4130,14 +4130,14 @@ Author  E-mail: kienkane@gmail.com
 
 @media (max-width: 480px) {
   .interior_area .interior_inner .col-lg-6 .img-fluid {
-    margin-left: 15%;
+    margin-left:8%;
   }
 
   #carousel .carousel-inner{
-    margin-left: 35%; 
+    margin-left: 20%; 
   }
-  .carousel-control-prev{ left:35px;}
-  .carousel-control-next{ right: -135px;}
+  .carousel-control-prev{ left:25px;}
+  .carousel-control-next{ right: -85px;}
   .carousel-indicators{margin: 10px auto;
-  margin-left:55%;}
+  margin-left:45%;}
 }

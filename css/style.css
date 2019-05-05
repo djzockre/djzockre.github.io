@@ -4094,5 +4094,36 @@ h6 {
 }
 
 /*---------------------------------------------------- */
+/*=====================================================================
+@Template variations Name: Dario Emmanuel Vázquez Ceballos
+@designer: Dario Vázquez
+Author  E-mail: kienkane@gmail.com
+=====================================================================*/
 
+/*----------------------------------------------------*/
 /*# sourceMappingURL=style.css.map */
+#carousel .carousel-inner .carousel-item .slide-box img{
+  margin: 0 10px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 60px;
+  width: 20px;
+  background-color: rgba(144, 60, 253, .3);
+  background-size: 70%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+.carousel-control-prev{ left:-35px;}
+.carousel-control-next{ right:-35px;}
+.carousel-indicators li{
+  background: rgba(0, 0, 0, 0.2);
+  width: 35px;
+  height: 5px;
+  bottom:-45px;
+  
+}
+.carousel-indicators .active{
+  background-color: rgba(144, 60, 253, .7);
+}

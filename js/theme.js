@@ -116,27 +116,75 @@
     function screenshot_slider(){
         if ( $('.screenshot_inner').length ){
             $('.screenshot_inner').owlCarousel({
-                loop:true,
-                margin: 30,
-                items: 4,
-                nav: false,
+                // loop:true,
+                // margin: 30,
+                // items: 5,
+                // nav: false,
+                // autoplay: true,
+                // smartSpeed: 2500,
+                // dots:false, 
+                // responsiveClass: true,
+                // responsive: {
+                //     0: {
+                //         items: 2,
+                //     },
+                //     576: {
+                //         items: 4,
+                //     },
+                // }
+                items: 3,
+                nav: true,
+                loop: true,
+                dots: false,
+                margin: 5,
                 autoplay: true,
-                smartSpeed: 1500,
-                dots:false, 
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 2,
+                autoplayTimeout: '3000',
+                navContainer: '#nav',
+                navText: [
+                    '<i class="fa fa-angle-left"></i>',
+                    '<i class="fa fa-angle-right"></i>'
+                ],
+                responsive:{
+                    0:{
+                        items:1
                     },
-                    576: {
-                        items: 4,
-                    },
+                    767:{
+                        items:3,
+                        nav:true
+                    }
                 }
             })
         }
     }
     screenshot_slider();
-	
+    
+    function screenshot_sliders(){
+        $('.screenshot_inner2').owlCarousel({
+                items: 3,
+                nav: true,
+                loop: true,
+                dots: false,
+                margin: 5,
+                autoplay: true,
+                autoplayTimeout: '3000',
+                navContainer: '#nav',
+                navText: [
+                    '<i class="fa fa-angle-left"></i>',
+                    '<i class="fa fa-angle-right"></i>'
+                ],
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    767:{
+                        items:3,
+                        nav:true
+                    }
+                }
+            })
+        }
+    screenshot_slider2();
+    
 	
 	/*----------------------------------------------------*/
     /*  Google map js

@@ -1,0 +1,39 @@
+
+/* Main Photo */
+.photo-01 {
+  background: url("fernando.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+}
+
+/* Timeline */
+.timeline-samuel-01,
+.timeline-samuel-02,
+.timeline-samuel-03,
+.timeline-samuel-04 {
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.timeline-samuel-01 {
+  background: url("http://www.sdi.unam.mx/sub/DGTIC.png");
+  background-position: center;
+  background-size: cover;
+}
+.timeline-samuel-02 {
+  background: url("https://www.elsoldemexico.com.mx/mexico/tt81k2-mex-unam15/alternates/LANDSCAPE_400/mex-unam15");
+  background-position: center;
+  background-size: cover;
+}
+.timeline-samuel-03 {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Logofca.jpg/240px-Logofca.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.timeline-samuel-04 {
+  background: url("http://www.eldiariodecoahuila.com.mx/u/fotografias/fotosnoticias/2018/9/7/685646.jpg");
+  background-position: center;
+  background-size: cover;
+}

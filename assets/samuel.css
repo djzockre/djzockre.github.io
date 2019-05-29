@@ -17,6 +17,12 @@
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
+
+.ibero {
+  background: url("https://www.iberopuebla.mx/sites/default/files/tax/suj/Ibero_mexico_mini.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .timeline-samuel-01 {
   background: url("http://www.sdi.unam.mx/sub/DGTIC.png");
   background-position: center;
